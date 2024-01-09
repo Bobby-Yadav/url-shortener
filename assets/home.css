@@ -9,3 +9,9 @@ body {
     font-size: 30px;
 }
 
+.table-data{
+    max-width:45vw;
+    word-wrap: break-word;
+    margin: auto;
+}
+

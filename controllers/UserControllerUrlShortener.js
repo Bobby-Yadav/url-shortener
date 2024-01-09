@@ -16,7 +16,7 @@ module.exports.orgUrl = async (req,res) => {
     // map.set(code, originalUrl)
 
     const link = await Link.create({ originalURL: originalUrl, 
-        shortenedURL: `http://localhost:8005/${code}`,
+        shortenedURL: `https://url-shortener-pxui.onrender.com/${code}`,
         visited: 0, 
         code: code
     })

@@ -25,8 +25,8 @@
 
             <% links.forEach(element => { %>
                 <tr>
-                    <td><a href="<%= element.originalURL %>"><%= element.originalURL %></a></td>
-                    <td><a href="<%= element.shortenedURL %>"><%= element.shortenedURL %></a></td>
+                    <td class="table-data"><a href="<%= element.originalURL %>"><%= element.originalURL %></a></td>
+                    <td class="table-data"><a href="<%= element.shortenedURL %>"><%= element.shortenedURL %></a></td>
                 </tr>
             <% }); %>
 
