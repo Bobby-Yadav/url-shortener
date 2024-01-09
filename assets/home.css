@@ -1,0 +1,11 @@
+body {
+    background-color: aqua;
+    font-size: larger;
+    text-align: center;
+
+}
+#tbl{
+    border: 1px solid black;
+    font-size: 30px;
+}
+

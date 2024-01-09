@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="/home.css" >
+
+
+
+<div id="urlbody"> 
+    <h1> URL Shortner</h1>
+
+    <div>
+        
+        <h1>  Analytics </h1>
+        <form  action="/orgUrlreq" method="post">
+
+            <input  type="url" placeholder=" full url" name="linkurl">
+            <input type="submit" value="process">
+        </form>
+
+
+        
+        <table id="tbl" border="4">
+            <caption> Analytics </caption>
+            <tr>
+                <th>links</th>
+                <th>short links</th>
+            </tr>
+
+            <% links.forEach(element => { %>
+                <tr>
+                    <td><a href="<%= element.originalURL %>"><%= element.originalURL %></a></td>
+                    <td><a href="<%= element.shortenedURL %>"><%= element.shortenedURL %></a></td>
+                </tr>
+            <% }); %>
+
+        </table>
+
+
+    </div>
+
+
+
+ 
+<!-- 
+    <li>
+        <a href="">Sign Out </a>
+    </li> -->
+
+    <form action="/logout" method="get">
+        <button> SIGN OUT</button>
+    </form>
+
+</div>
+
+ 
+
+ 
+
+
+ 
+
+   
+ 

@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.enter {
+    margin-top: 40vh;
+}
+
+#signin {
+    justify-content: space-around;
+
+}
+
+.row {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
